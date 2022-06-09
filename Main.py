@@ -1,6 +1,6 @@
 while True:
   def solve_for():
-    print("\n" , "Pythagorean Theorum:")
+    print("Pythagorean Theorum:")
     solve_for = input("Would you like to solve for 'a', 'b', or 'c'? ")
 
   if solve_for == "a" or solve_for == "A":
