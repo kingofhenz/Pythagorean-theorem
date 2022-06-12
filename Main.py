@@ -1,9 +1,9 @@
 while True:
-  def solve_for():
-    print("Pythagorean Theorum:")
-    solve_for = input("Would you like to solve for 'a', 'b', or 'c'? ")
+  print("Pythagorean Theorum:")
+  solve_for = input("Would you like to solve for 'a', 'b', or 'c'? ")
+  def solve():
 
-  if solve_for == "a" or solve_for == "A":
+  if solve == "a" or solve == "A":
       b = float(input("Input 'b' value: "))
       c = float(input("Input 'c' value: "))
       print("a = ", ((c**2 - b**2)**(1/2)))
@@ -18,6 +18,5 @@ while True:
         b = float(input("Input 'b' value: "))
         print("c = ", ((a**2 + b**2)**(1/2)))
 
-solve_for(undefined)
     if solve_for != "a" and solve_for != "A" and solve_for != "b" and solve_for != "B" and solve_for != "c" and solve_for != "C":
         print("error")
